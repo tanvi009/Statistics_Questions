@@ -71,4 +71,3 @@ Now moving on to types of Hypothesis Testing we can perform.
 **Deciding between z-Test and t-Test**
 
 ![image](https://user-images.githubusercontent.com/63853707/122744040-3c6ac880-d2a5-11eb-81db-b3d230942d29.png)
-
