@@ -25,7 +25,9 @@ ALTERNATIVE HYPOTHESIS: Alternative hypothesis (HA) is the rival opinion or rese
 
 Note that hypothesis testing is done on the basis of sampling distribution, the decisions made are probabilistic. Hence it is very important to understand the errors associated with hypothesis testing.
 
-![image](https://user-images.githubusercontent.com/63853707/122728104-674d2080-d295-11eb-9648-8e18232bf14e.png)
+![image](https://user-images.githubusercontent.com/63853707/122728265-9499ce80-d295-11eb-8a3e-38ae80312194.png)
+
+
 
 
 
