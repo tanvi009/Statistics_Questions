@@ -21,6 +21,7 @@ Now we understand basic terminologies, Let's see What Hypothesis Testing is?
 A **hypothesis** is a conjecture about a parameter of a population. Object of the hypothesis testing procedure is to SET a value for the parameter(s) and perform a statistical TEST to see whether that value is tenable in the light of the evidence gathered from the sample. All analysts use a random population sample to test two different hypotheses: the null hypothesis and the alternative hypothesis.
 
 **NULL HYPOTHESIS**: Null hypothesis (H0) is the presumed current state of the matter or status quo.
+
 **ALTERNATIVE HYPOTHESIS:** Alternative hypothesis (HA) is the rival opinion or research hypothesis or an improvement target.
 
 Note that hypothesis testing is done on the basis of sampling distribution, the decisions made are probabilistic. Hence it is very important to understand the errors associated with hypothesis testing.
