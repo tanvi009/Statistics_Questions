@@ -1,4 +1,4 @@
-# Statistics_Questions
+# Welcome to Statistics World
 
 Before I jump to Hypothesis there are few terminologies/concepts one should know:
 
@@ -22,6 +22,11 @@ A hypothesis is a conjecture about a parameter of a population. Object of the hy
 
 NULL HYPOTHESIS: Null hypothesis (H0) is the presumed current state of the matter or status quo.
 ALTERNATIVE HYPOTHESIS: Alternative hypothesis (HA) is the rival opinion or research hypothesis or an improvement target.
+
+Note that hypothesis testing is done on the basis of sampling distribution, the decisions made are probabilistic. Hence it is very important to understand the errors associated with hypothesis testing.
+
+![image](https://user-images.githubusercontent.com/63853707/122728104-674d2080-d295-11eb-9648-8e18232bf14e.png)
+
 
 
 
