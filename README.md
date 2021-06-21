@@ -58,11 +58,17 @@ The p-value is compared to the pre-chosen alpha value(Significance Level). Usual
 
 Now moving on to types of Hypothesis Testing we can perform.
 
-**z-Test:**  z-test is a statistical test to determine whether two population means are different when the variances are known and the sample size is large(>30). z-test is a hypothesis test in which the z-statistic follows a normal distribution.
+**z-Test:**  z-test is a statistical test to determine whether two population means are different when the population variances are known and the sample size is large(>30). z-test is a hypothesis test in which the z-statistic follows a normal distribution. A z-statistic, or z-score, is a number representing how many standard deviations above or below the mean population a score derived from a z-test is. Null hypothesis is rejected when z is greater than Critical Value and vice versa. Z score is calculated as:
 
-**t-test:** t-tests are a statistical way of comparing the means of two groups. It is used when we do not know the population variance and Our sample size is small, n < 30.
+![image](https://user-images.githubusercontent.com/63853707/122749513-0f211900-d2ab-11eb-92f7-c05cde40e248.png)
 
-**Deciding between Z Test and T-Test**
+
+**t-test:** t-tests are a statistical way of comparing the means of two groups. It is used when we do not know the population variance and Our sample size is small, n < 30. Similarly to z score, t-test has t score. The difference from the z-Test is that we do not have the information on Population Variance here. We use the sample standard deviation instead of population standard deviation in this case.
+
+![image](https://user-images.githubusercontent.com/63853707/122749635-311a9b80-d2ab-11eb-8217-6899d283bae8.png)
+
+
+**Deciding between z-Test and t-Test**
 
 ![image](https://user-images.githubusercontent.com/63853707/122744040-3c6ac880-d2a5-11eb-81db-b3d230942d29.png)
 
