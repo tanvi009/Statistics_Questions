@@ -53,5 +53,16 @@ If the alternate hypothesis gives the alternate in only one direction (either le
 The p-value is compared to the pre-chosen alpha value(Significance Level). Usually significant level of 5% or 1% is considered for taking a decision on Null Hypothesis.
 
 **If p-value > alpha:** Fail to reject the null hypothesis (i.e. not significant result).
+
 **If p-value <= alpha:** Reject the null hypothesis (i.e. significant result).
+
+Now moving on to types of Hypothesis Testing we can perform.
+
+**z-Test:**  z-test is a statistical test to determine whether two population means are different when the variances are known and the sample size is large(>30). z-test is a hypothesis test in which the z-statistic follows a normal distribution.
+
+**t-test:** t-tests are a statistical way of comparing the means of two groups. It is used when we do not know the population variance and Our sample size is small, n < 30.
+
+**Deciding between Z Test and T-Test**
+
+![image](https://user-images.githubusercontent.com/63853707/122744040-3c6ac880-d2a5-11eb-81db-b3d230942d29.png)
 
