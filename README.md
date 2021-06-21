@@ -46,8 +46,12 @@ If the alternate hypothesis gives the alternate in only one direction (either le
 
 ![image](https://user-images.githubusercontent.com/63853707/122740069-3d99f680-d2a1-11eb-9812-313b6c60be54.png)
 
+**p-value:** p-value is the probability of obtaining test results at least as extreme as the results actually observed, under the assumption that the null hypothesis is correct. In other words, how likely it is to get results we are getting if Null Hypothesis is true. A very small p-value means that such an extreme observed outcome would be very unlikely under the null hypothesis.
 
+**Decision making with p-value**
 
+The p-value is compared to the pre-chosen alpha value(Significance Level). Usually significant level of 5% or 1% is considered for taking a decision on Null Hypothesis.
 
-
+**If p-value > alpha:** Fail to reject the null hypothesis (i.e. not significant result).
+**If p-value <= alpha:** Reject the null hypothesis (i.e. significant result).
 
