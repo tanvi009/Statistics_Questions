@@ -67,7 +67,26 @@ Now moving on to types of Hypothesis Testing we can perform.
 
 ![image](https://user-images.githubusercontent.com/63853707/122749635-311a9b80-d2ab-11eb-8217-6899d283bae8.png)
 
-
 **Deciding between z-Test and t-Test**
 
 ![image](https://user-images.githubusercontent.com/63853707/122744040-3c6ac880-d2a5-11eb-81db-b3d230942d29.png)
+
+**ANOVA:** Analysis of Variance (ANOVA) is one of the techniques that identify one or more factors that may contribute to the source of variability in a dataset. In other words, ANOVA is a statistical technique that is used to check if the means of two or more groups are significantly different from each other. ANOVA checks the impact of one or more factors by comparing the means of different samples.
+
+**Note:** t-test is also a method to compare the samples. When we have only two samples, t-test and ANOVA give the same results. However, using a t-test would not be reliable in cases where there are more than 2 samples. If we conduct multiple t-tests for comparing more than two samples, it will have a compounded effect on the error rate of the result.
+
+Hypothesis considered in ANOVA is:
+Null Hypothesis (𝐻0): 𝜇1 = 𝜇2 = 𝜇3 = ⋯ = 𝜇𝑐
+Alternative Hypothesis (𝐻𝑎): At least one population mean is different from the rest.
+
+ANOVA uses F statistics to compute result.
+The statistic which measures if the means of different samples are significantly different or not is called the F-Ratio. Lower the F-Ratio, more similar are the sample means. In that case, we cannot reject the null hypothesis.
+
+F = Between group variability / Within group variability
+
+Unlike the z and t-distributions, the F-distribution does not have any negative values because between and within-group variability are always positive due to squaring each deviation.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
