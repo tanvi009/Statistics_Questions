@@ -79,8 +79,7 @@ Hypothesis considered in ANOVA is:
 Null Hypothesis (𝐻0): 𝜇1 = 𝜇2 = 𝜇3 = ⋯ = 𝜇𝑐
 Alternative Hypothesis (𝐻𝑎): At least one population mean is different from the rest.
 
-ANOVA uses F statistics to compute result.
-The statistic which measures if the means of different samples are significantly different or not is called the F-Ratio. Lower the F-Ratio, more similar are the sample means. In that case, we cannot reject the null hypothesis.
+The result of the ANOVA formula uses the F statistic (also called the F-ratio) which allows for the analysis of multiple groups of data to determine the variability between samples and within samples. Lower the F-Ratio, more similar are the sample means. In that case, we cannot reject the null hypothesis.
 
 F = Between group variability / Within group variability
 
