@@ -104,4 +104,29 @@ There are two main kinds of chi-square tests: the test of independence, which as
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Now a days, collecting data is not a big task, data is huge but to understand what data actaul tells us is something we can always learn. In our world, where we make decisions based on this structured data, there is a potential danger of having too much information and even the risk of losing some important information. Eg, To explain customer satisfaction we would like to incraese our Independent variables to get reliable and more accurate mode. In case of categorical variables we might create dummy variables, hence the amount of data might grow exponentially. This phenomenon of having too much information is referred to as the ‘Curse of Dimensionality.’ Hence, there are powerful techniques available to deal with these challenges. These are known as Dimensionality Reduction techniques. We can either drop our variable or might reduce the dimension by combining variables.
+Dimensionality reduction reduces features (from high dimensional features space to lower dimensions) to reduce the scatteredness (or sparsity) of the features space without impacting the total information content. The two prevalent methods are Principal Component Analysis (PCA) and Factor Analysis, which help us overcome the curse of dimensionality while minimizing the loss of information. Let's learn about them:
+
+**Factor Analysis:** The primary aspect of factor analysis is to unearth the latent (or also known as the factors) that store a variable’s spread (or the information).
+We perform factor analysis also to decrease the larger number of attributes into a smaller set of factors. When analyzing data with many predictors, some of the features may have a common theme amongst themselves. The features that have similar meaning underneath could be influencing the target variable by sharing this causation, and hence such features are combined into a factor.  Thus, a factor (or latent) is a common or underlying element with which several other variables are correlated. Also, these latent variables (or latent constructs) are not directly observable and hence are not measurable by themselves with a single variable.
+
+Some basic terminologies used in FA:
+
+**Eigenvalue:**  The eigenvalue is a measure of how much of the variance of the observed variables a factor explains.  Any factor with an eigenvalue ≥1 explains more variance than a single observed variable.
+
+**Scree Plot:** Scree Plot determine optimal number of factors or components we can use in FA. If Eigne Values < 1 , those factprs are not considered.
+
+**Factor Loading:** The relationship of each variable to the underlying factor is expressed by the so-called factor loading.
+
+
+**Principal Compenent Analysis:** Principal Component Analysis (PCA) is the technique that removes dependency or redundancy in the data by dropping those features that contain the same information as given by other attributes and the derived components are independent of each other.
+
+The approach of PCA to reduce the unnecessary features, which are present in the data,  is by creating or deriving new dimensions (or also referred to as components). These components are a linear combination of the original variables. This way, PCA converts a larger number of correlated variables (i.e., breaks down the data) into a smaller set of uncorrelated variables. A principal component of a data set is the direction with the largest variance. Technically, PCA does this by rotation of the axes of each of the variables. The axes are rotated so that it absorbs all the information or the spread available in the variable. So, now each of the axes is a new dimension or the principal component. The component is defined as the direction of the dataset explaining the highest variance, which is implied by the eigenvalue of that component. The rotation of the axis is graphically depicted.
+
+![image](https://user-images.githubusercontent.com/63853707/123536725-b4277000-d749-11eb-859a-60888d674d3d.png)
+
+Now, you may be wondering, which of the two techniques shall I use? PCA or factor analysis? This is an easy one.
+
+When your purpose is to reduce the correlated observed predictors into a smaller set of dimensions or components that are independent of each other, use PCA. On the other hand, if your goal is to dig deeper to understand and test the model for the presence of latent factors that may be causing the variation in the data, then use factor analysis.
+
 
