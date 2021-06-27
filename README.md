@@ -95,7 +95,7 @@ Summary Chart for Hypothesis:
 
 ![image](https://user-images.githubusercontent.com/63853707/123535714-382a2980-d743-11eb-99f0-d09aaefefb86.png)
 
-**Chi Square: ** A chi-square (χ2) statistic is a test that measures how a model compares to actual observed data. The data used in calculating a chi-square statistic must be random, raw, mutually exclusive, drawn from independent variables, and drawn from a large enough sample. For example, the results of tossing a fair coin meet these criteria.
+**Chi Square:**  A chi-square (χ2) statistic is a test that measures how a model compares to actual observed data. The data used in calculating a chi-square statistic must be random, raw, mutually exclusive, drawn from independent variables, and drawn from a large enough sample. For example, the results of tossing a fair coin meet these criteria.
 There are two main kinds of chi-square tests: the test of independence, which asks a question of relationship, such as, "Is there a relationship between student sex and course choice?"; and the goodness-of-fit test, which asks something like "How well does the coin in my hand match a theoretically fair coin?"
 
 ![image](https://user-images.githubusercontent.com/63853707/123536062-a112a100-d745-11eb-8c1d-2be1c869deef.png)
