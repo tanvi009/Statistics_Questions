@@ -85,6 +85,11 @@ F = Between group variability / Within group variability
 
 Unlike the z and t-distributions, the F-distribution does not have any negative values because between and within-group variability are always positive due to squaring each deviation.
 
+Summary Chart for Hypothesis:
+
+![image](https://user-images.githubusercontent.com/63853707/123535651-c2be5900-d742-11eb-9db2-7613af56ae84.png)
+
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
