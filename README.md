@@ -75,6 +75,12 @@ Now moving on to types of Hypothesis Testing we can perform.
 
 **Note:** t-test is also a method to compare the samples. When we have only two samples, t-test and ANOVA give the same results. However, using a t-test would not be reliable in cases where there are more than 2 samples. If we conduct multiple t-tests for comparing more than two samples, it will have a compounded effect on the error rate of the result.
 
+There are few assumptions which must be fulfilled before using ANOVA:
+
+1. The populations from where samples have been drawn should follow a normal distribution.
+2. The samples have been selected randomly and independently.  
+3. Each group should have common variance i.e. should be homoscedastic i.e. the variability in the dependent variable values within different groups is equal.
+
 Hypothesis considered in ANOVA is:
 Null Hypothesis (𝐻0): 𝜇1 = 𝜇2 = 𝜇3 = ⋯ = 𝜇𝑐
 Alternative Hypothesis (𝐻𝑎): At least one population mean is different from the rest.
@@ -88,6 +94,11 @@ Unlike the z and t-distributions, the F-distribution does not have any negative 
 Summary Chart for Hypothesis:
 
 ![image](https://user-images.githubusercontent.com/63853707/123535714-382a2980-d743-11eb-99f0-d09aaefefb86.png)
+
+**Chi Square: ** A chi-square (χ2) statistic is a test that measures how a model compares to actual observed data. The data used in calculating a chi-square statistic must be random, raw, mutually exclusive, drawn from independent variables, and drawn from a large enough sample. For example, the results of tossing a fair coin meet these criteria.
+There are two main kinds of chi-square tests: the test of independence, which asks a question of relationship, such as, "Is there a relationship between student sex and course choice?"; and the goodness-of-fit test, which asks something like "How well does the coin in my hand match a theoretically fair coin?"
+
+![image](https://user-images.githubusercontent.com/63853707/123536062-a112a100-d745-11eb-8c1d-2be1c869deef.png)
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
