@@ -114,7 +114,7 @@ Some basic terminologies used in FA:
 
 **Eigenvalue:**  The eigenvalue is a measure of how much of the variance of the observed variables a factor explains.  Any factor with an eigenvalue ≥1 explains more variance than a single observed variable.
 
-**Scree Plot:** Scree Plot determine optimal number of factors or components we can use in FA. If Eigne Values < 1 , those factprs are not considered.
+**Scree Plot:** Scree Plot determine optimal number of factors or components we can use in FA. If Eigne Values < 1 , those factors are not considered.
 
 **Factor Loading:** The relationship of each variable to the underlying factor is expressed by the so-called factor loading.
 
