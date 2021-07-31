@@ -28,7 +28,7 @@ Note that hypothesis testing is done on the basis of sampling distribution, the 
 
 ![image](https://user-images.githubusercontent.com/63853707/122728265-9499ce80-d295-11eb-8a3e-38ae80312194.png)
 
-There is an example which I picked up from Analytics Vidhya for more clarification:
+There is an example which I picked up from an article I read for more clarification:
 
 The person is arrested on the charge of being guilty of burglary. A jury of judges has to decide guilty or not guilty.
 
